@@ -1,0 +1,47 @@
+def elevator_agent(current_floor, requested_floor):
+
+    if requested_floor > current_floor:
+        return "Move Up"
+
+    elif requested_floor < current_floor:
+        return "Move Down"
+
+    else:
+        return "Open Doors"
+
+
+# Test Cases
+tests = [
+    (2, 5),
+    (6, 3),
+    (4, 4)
+]
+
+for current, requested in tests:
+    action = elevator_agent(current, requested)
+    print(f"Current Floor: {current}, Requested Floor: {requested} --> {action}")
+
+
+
+
+
+#     # SIR STYLE CODE
+
+def agent(current_floor, requested_floor):
+    if requested_floor > current_floor:
+        return "Move Up"
+    elif requested_floor < current_floor:
+        return "Move Down"
+    else:
+        return "Open Doors"
+
+
+# Test Cases
+current_floors = [2, 5, 4]
+requested_floors = [6, 2, 4]
+
+# Loop ke zariye har input check karna
+for current, requested in zip(current_floors, requested_floors):
+    res = agent(current, requested)
+    print(f"Current Floor: {current}, Requested Floor: {requested}")
+    print(res)
