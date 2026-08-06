@@ -9,7 +9,7 @@ graph = {
     7: [6]
 }
 
-
+# Task 2: Counter added inside BFS function
 def bfs(graph, start):
     visited = []
     queue = [start]
