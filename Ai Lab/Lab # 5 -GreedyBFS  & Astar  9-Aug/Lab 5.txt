@@ -1,0 +1,25 @@
+informwdd search is also a euristic searc and is als called a blind search
+
+it is always less than or  equal to targeted search
+
+
+
+informed search bcz  of apnee ppaths ko ptiomze kr skein	
+
+heuristic  means some guess denaa
+
+GREEDY BEREAH FOR SEARCH just check k s we go to the goal nearest
+
+
+
+Acutal cost f(n) is always ahgreater or less than h(n)
+f(n)>=h(nd)
+
+
+
+======================================================================
+A* is the improvedversion of greedyBFS
+its gives final and best papth
+
+its LSO CHECK TRAFIC IN DURIG A PATH
+
