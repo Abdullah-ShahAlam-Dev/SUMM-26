@@ -6,9 +6,11 @@ random.seed(number)
 digits = list("012345678")
 random.shuffle(digits)
 # jsut change a string for different starting state
-start_state = "".join(digits)
-start_state = "208534167"
-# start_state = "123450786" #1 move away from goal
+# start_state = "".join(digits)
+# start_state = "208534167" #19 Moves away from goal
+
+
+start_state = "123405786" #1 move away from goal
 print("Starting State Generated:", start_state)
 
 
