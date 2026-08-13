@@ -1,19 +1,17 @@
 import random
-
-# --- 1. GENERATE STARTING STATE ---
+# --- 1. GENERATE STARTING Fixed STATE ---
 number = "0462"  
 random.seed(number)
 digits = list("012345678") #for make list to make a shuffle of digits
 random.shuffle(digits)
 # To make A String from the list of digits from the list of digits
-start_state = "".join(digits) 
+start_state = "".join(digits) #to make a string from the list of digits using join() method without spaces
 
-#Some predefined starting states for testing
-# start_state = "123405786" #2 move away from goal
+# Some another string for testing rather than random seed
+start_state = "123405786" #2 move away from goal, replace new string to test with different starting state
 # start_state = "208534167" #19 Moves away from goal
 
 print("Starting State Generated:", start_state)
-
 
 # --- 2. MOVEMENT FUNCTIONS ---
 # Ye functions khali jagah ('0') ko alag alag directions mein move karte hain
