@@ -3,14 +3,15 @@ import random
 # --- 1. GENERATE STARTING STATE ---
 number = "0462"  
 random.seed(number)
-digits = list("012345678")
+digits = list("012345678") #for make list to make a shuffle of digits
 random.shuffle(digits)
-# jsut change a string for different starting state
-# start_state = "".join(digits)
+# To make A String from the list of digits from the list of digits
+start_state = "".join(digits) 
+
+#Some predefined starting states for testing
+# start_state = "123405786" #2 move away from goal
 # start_state = "208534167" #19 Moves away from goal
 
-
-start_state = "123405786" #1 move away from goal
 print("Starting State Generated:", start_state)
 
 
