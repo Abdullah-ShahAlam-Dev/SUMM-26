@@ -4,7 +4,7 @@ it is always less than or  equal to targeted search
 
 
 
-informed search bcz  of apnee ppaths ko ptiomze kr skein	
+informed search bcz  of apnee ppaths ko optiomze kr skein	
 
 heuristic  means some guess denaa
 
@@ -18,8 +18,43 @@ f(n)>=h(nd)
 
 
 ======================================================================
-A* is the improvedversion of greedyBFS
+A* is the improved version of greedyBFS
 its gives final and best papth
 
 its LSO CHECK TRAFIC IN DURIG A PATH
+
+*********************
+Main aapko dono ka farq asaan ilfaaz mein bata deta hoon:
+
+1. Breadth-First Search (BFS)
+
+Type: Ye ek "Uninformed Search" (blind search) hai.
+
+Working: Ye level-by-level kaam karta hai. Pehle root node ke saare padosi check karega, phir unke padosi check karega, aur aese hi aage barhega.
+
+Data Structure: Isme simple Queue (First-In-First-Out) use hoti hai.
+
+Logic: Is algorithm ko pehle se koi idea nahi hota ke goal kahan hai, ye bas andha-dhun sab check karta hai.
+
+2. Best-First Search (Greedy Best-First Search - GBFS)
+
+Type: Ye ek "Informed Search" (heuristic search) hai.
+
+Working: Ye level-by-level nahi chalta. Ye hamesha us padosi (neighbor) par jump karta hai jiski Heuristic value sab se kam hoti hai (yani jo goal ke sab se qareeb lagta hai).
+
+Data Structure: Isme Priority Queue use hoti hai (jaisa ke aapne apne class task mein import heapq likha tha).
+
+Logic: Isme algorithm ko goal ki distance ka ek estimate (heuristic values) pehle se diya jata hai.
+
+
+***********************
+SUMMARY
+Haan bhai, bilkul 100%! Ye dono ek dam alag algorithms hain.
+
+Naam padhne mein thore same lagte hain, lekin inke kaam karne ka tarika zameen asmaan ka farq rakhta hai:
+
+Breadth-First Search (BFS): Ye bilkul "andha" (blind) search hai. Isko nahi pata manzil kahan hai, ye bas har taraf ek ek kar ke sab kuch check karta hai.
+
+Best-First Search (GBFS): Ye "smart" (informed) search hai. Iske paas ek andaza (heuristic) hota hai, toh ye fizool raaste chhor kar direct us raaste par jata hai jo goal ke sab se qareeb lagta hai.
+***********************
 

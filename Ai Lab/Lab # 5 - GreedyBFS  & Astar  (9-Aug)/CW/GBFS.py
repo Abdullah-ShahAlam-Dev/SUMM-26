@@ -19,7 +19,7 @@ heuristic = {
 def greedy_search(start, goal):
     pq = [(heuristic[start], start, [start])]
     visited = set()
-    
+    print("--- CODE BY: Abdullah Shahalam ---")
     while pq:
         h, current, path = heapq.heappop(pq)
         
