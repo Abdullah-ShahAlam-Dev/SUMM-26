@@ -1,0 +1,8 @@
+min maxx lies n adverdsiseral search 
+
+MAX Nodes: human tha want max score/no.
+
+MIN Nodes: Ai robots mmachines that wqants ki scores less rhien 
+
+==================================
+minmax aogith hels you tinks ahead.
