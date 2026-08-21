@@ -1,0 +1,7 @@
+Tic Tac Toe - Minimax
+https://www.youtube.com/watch?v=5y2a0Zhgq0U&t=24s
+
+
+
+Alpha-Beta Pruning
+https://www.youtube.com/watch?v=DV5d31z1xTI
